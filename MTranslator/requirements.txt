@@ -1,0 +1,9 @@
+torch
+transformers
+sentencepiece
+sacremoses
+fastapi
+uvicorn
+pydantic
+streamlit
+requests
