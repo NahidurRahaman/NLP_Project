@@ -1,0 +1,2 @@
+DATABASE_URL = "postgresql://postgres:admin@localhost:5432/chatbot"
+GOOGLE_API_KEY=AIzaSyC5RyJ1YFUWmUYy7xbQgqVfU7gmG2bcZp0
