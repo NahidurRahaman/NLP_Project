@@ -51,5 +51,10 @@ python -m venv .venv
 
 pip install -r requirements.txt
 streamlit run app.py
+# Demo:
+
+
+https://github.com/user-attachments/assets/f85cd15d-8752-43aa-9856-7231d5f8a21e
+
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
