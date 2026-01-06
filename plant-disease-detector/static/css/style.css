@@ -1,0 +1,77 @@
+/* Custom Styles */
+body {
+    background: linear-gradient(135deg, #f8fff8 0%, #ffffff 100%);
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Upload Area */
+.upload-area {
+    border: 3px dashed #28a745;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: rgba(40, 167, 69, 0.05);
+}
+
+.upload-area:hover {
+    background: rgba(40, 167, 69, 0.1);
+    border-color: #218838;
+}
+
+/* Prediction Cards */
+.prediction-card {
+    border-left: 5px solid #28a745;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    transition: transform 0.2s;
+}
+
+.prediction-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.risk-badge {
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.risk-danger {
+    background: #dc3545;
+    color: white;
+}
+
+.risk-warning {
+    background: #ffc107;
+    color: black;
+}
+
+.risk-success {
+    background: #28a745;
+    color: white;
+}
+
+/* Progress Bar Animation */
+.progress-bar {
+    transition: width 1.5s ease-in-out;
+}
+
+/* Camera Styles */
+#cameraStream {
+    border: 3px solid #28a745;
+    border-radius: 10px;
+    background: #000;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .card-body {
+        padding: 2rem !important;
+    }
+    
+    h1.display-4 {
+        font-size: 2.5rem;
+    }
+}
